@@ -1,0 +1,45 @@
+/* Write your CSS here */
+* {
+  color: #334155;
+}
+
+.background {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.white-card {
+  height: 60vh;
+  width: 35vw;
+  background-color: white;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+}
+.heading {
+  color: #e2a139;
+}
+
+.button1 {
+  color: #e2a139;
+  background-color: #f9d423;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  width: 80px;
+  height: 30px;
+}
+.img {
+  height: 100px;
+  width: 100px;
+}
+.align {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
